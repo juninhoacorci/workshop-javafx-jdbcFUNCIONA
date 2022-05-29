@@ -12,6 +12,8 @@ public class Main extends Application {
 	
 	private static Scene mainScene;
 	
+	//teste de commit
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
