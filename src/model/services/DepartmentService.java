@@ -22,4 +22,8 @@ private DepartmentDao dao = DaoFactory.createDepartmentDao();
 			dao.update(obj);
 		}
 	}
+	
+	public void remove(Department obg) {
+		dao.deleteById(obg.getId());
+	}
 }
